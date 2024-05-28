@@ -1,0 +1,10 @@
+*.class
+target/
+
+plugins/
+.idea/*
+.idea/workspace.xml
+intellij configs
+classes/
+*.DS_Store
+xonar-backend.iml
