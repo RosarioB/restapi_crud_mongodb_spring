@@ -1,13 +1,13 @@
-package it.larus.monolith;
+package it.rosariob.restApiMongo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MonoliteApplication {
+public class RestApiMongoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MonoliteApplication.class, args);
+		SpringApplication.run(RestApiMongoApplication.class, args);
 	}
 
 }

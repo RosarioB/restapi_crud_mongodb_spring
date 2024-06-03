@@ -1,18 +1,18 @@
-package it.larus.monolith.entity;
+package it.rosariob.restApiMongo.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-import java.util.Date;
 
+@AllArgsConstructor
 @Data
-@Document(collection = "orders")
-public class Order {
+@Document(collection = "products")
+public class Product {
     @Id
     private String id;
-    private String product;
+    private String name;
     private int quantity;
     private double price;
-    private Date orderDate;
+    private String description;
 }
-

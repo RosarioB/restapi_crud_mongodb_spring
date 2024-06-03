@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>it.larus</groupId>
-	<artifactId>monolith</artifactId>
+	<artifactId>rest-api-mongo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>monolith</name>
-	<description>Microservices course demo</description>
+	<name>rest-api-mongo</name>
+	<description>Rest API MongoDB</description>
 	<properties>
 		<java.version>22</java.version>
 	</properties>

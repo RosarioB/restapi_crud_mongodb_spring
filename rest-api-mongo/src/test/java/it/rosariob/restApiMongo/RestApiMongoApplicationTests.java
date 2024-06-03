@@ -1,10 +1,10 @@
-package it.larus.monolith;
+package it.rosariob.restApiMongo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MonoliteApplicationTests {
+class RestApiMongoApplicationTests {
 
 	@Test
 	void contextLoads() {
